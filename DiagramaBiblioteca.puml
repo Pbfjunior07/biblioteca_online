@@ -1,0 +1,52 @@
+@startuml
+
+------Classes----------
+
+class Biblioteca {
+    -List<Livro> acervo
+    -List<Usuario> usuarios
+  +adicionarLivro(Livro livro)
+  +cadastrarUsuario(Usuario usuario)
+  +realizarEmprestimo(Livro livro, Leitor leitor)
+  +realizarDevolucao(Emprestimo emprestimo)
+}
+
+abstract class Usuario {
+  -String id
+  -String nome
+  +String getNome()
+}
+
+class Leitor extends Usuario {
+  -List<Emprestimo> historicoEmprestimos
+  +consultarHistorico()
+}
+
+class Administrador extends Usuario {
+  +gerenciarAcervo()
+}
+
+class Livro {
+  -String id
+  -String titulo
+  -String autor
+  -boolean disponibilidade
+  +emprestar()
+  +devolver()
+  +isDisponivel() : boolean
+}
+
+class Emprestimo {
+  -LocalDate dataEmprestimo
+  -LocalDate dataDevolucaoPrevista
+  -Livro livro
+  -Leitor leitor
+  +calcularMulta() : double
+}
+
+' --- Relacionamentos ---
+Biblioteca "1" o-- "0..*" Livro : "Gerencia (Acervo)"
+Biblioteca "1" o-- "0..*" Usuario : "Gerencia (Usuários)"
+Emprestimo "1" -- "1" Livro : "Refere-se a"
+Emprestimo "1" -- "1" Leitor : "Realizado por"
+@enduml

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Leitor
+comment0.text=\r\n\ Representa\ um\ Leitor,\ que\ \u00E9\ um\ tipo\ de\ Usuario.\r\n\ Pode\ pegar\ livros\ emprestados\ e\ consultar\ seu\ hist\u00F3rico.\r\n
+comment1.params=nome
+comment1.target=Leitor(java.lang.String)
+comment1.text=\r\n\ Construtor\ do\ Leitor.\r\n\ Chama\ o\ construtor\ da\ classe-m\u00E3e\ (Usuario)\ usando\ 'super()'.\r\n
+comment2.params=emprestimo
+comment2.target=void\ adicionarEmprestimoAoHistorico(Emprestimo)
+comment3.params=
+comment3.target=void\ consultarHistorico()
+numComments=4

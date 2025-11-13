@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Administrador
+comment0.text=\r\n\ Representa\ um\ Administrador,\ que\ \u00E9\ um\ tipo\ de\ Usuario.\r\n\ Ter\u00E1\ permiss\u00F5es\ para\ gerenciar\ o\ acervo\ e\ usu\u00E1rios.\r\n
+comment1.params=nome
+comment1.target=Administrador(java.lang.String)
+comment1.text=\r\n\ Construtor\ do\ Administrador.\r\n\ Apenas\ chama\ o\ construtor\ da\ classe-m\u00E3e\ (Usuario).\r\n
+numComments=2

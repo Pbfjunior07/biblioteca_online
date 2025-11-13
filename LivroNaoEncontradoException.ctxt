@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=LivroNaoEncontradoException
+comment0.text=\r\n\ Exce\u00E7\u00E3o\ customizada\ (Checked\ Exception)\ para\ quando\ um\ livro\ n\u00E3o\ \u00E9\ encontrado\ no\ acervo.\r\n\ Herda\ de\ Exception,\ o\ que\ a\ torna\ "checked"\ (verificada).\r\n
+comment1.params=mensagem
+comment1.target=LivroNaoEncontradoException(java.lang.String)
+numComments=2

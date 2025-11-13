@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Biblioteca
+comment0.text=\r\n\ Classe\ central\ que\ gerencia\ todo\ o\ sistema\ da\ biblioteca.\r\n\ Controla\ o\ acervo\ de\ livros,\ o\ cadastro\ de\ usu\u00E1rios\ e\ as\ opera\u00E7\u00F5es\r\n\ de\ empr\u00E9stimo\ e\ devolu\u00E7\u00E3o.\r\n
+comment1.params=
+comment1.target=Biblioteca()
+comment1.text=\r\n\ Construtor\ da\ Biblioteca.\r\n\ Inicializa\ as\ listas\ vazias.\r\n
+comment2.params=livro
+comment2.target=void\ adicionarLivro(Livro)
+comment3.params=usuario
+comment3.target=void\ cadastrarUsuario(Usuario)
+comment4.params=
+comment4.target=void\ consultarAcervo()
+comment4.text=\r\n\ Lista\ todos\ os\ livros\ no\ acervo\ e\ seu\ status.\r\n
+comment5.params=titulo
+comment5.target=Livro\ buscarLivroPorTitulo(java.lang.String)
+comment5.text=\r\n\ Busca\ um\ livro\ no\ acervo\ pelo\ t\u00EDtulo.\r\n\ @param\ titulo\ O\ t\u00EDtulo\ exato\ do\ livro.\r\n\ @return\ O\ objeto\ Livro.\r\n\ @throws\ LivroNaoEncontradoException\ Se\ o\ livro\ n\u00E3o\ for\ achado.\r\n
+comment6.params=id
+comment6.target=Leitor\ buscarLeitorPorId(java.lang.String)
+comment6.text=\r\n\ Busca\ um\ leitor\ na\ lista\ de\ usu\u00E1rios\ pelo\ ID.\r\n
+comment7.params=tituloDoLivro\ leitor
+comment7.target=void\ realizarEmprestimo(java.lang.String,\ Leitor)
+comment7.text=\r\n\ Orquestra\ a\ opera\u00E7\u00E3o\ de\ empr\u00E9stimo.\r\n\ @param\ tituloDoLivro\ O\ t\u00EDtulo\ do\ livro\ a\ ser\ emprestado.\r\n\ @param\ leitor\ O\ leitor\ que\ est\u00E1\ pegando\ o\ livro.\r\n
+comment8.params=tituloDoLivro\ leitor
+comment8.target=void\ realizarDevolucao(java.lang.String,\ Leitor)
+comment8.text=\r\n\ Orquestra\ a\ opera\u00E7\u00E3o\ de\ devolu\u00E7\u00E3o.\r\n\ @param\ tituloDoLivro\ O\ t\u00EDtulo\ do\ livro\ a\ ser\ devolvido.\r\n\ @param\ leitor\ O\ leitor\ que\ est\u00E1\ devolvendo.\r\n
+numComments=9

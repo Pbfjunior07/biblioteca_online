@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Usuario
+comment0.text=\r\n\ Classe\ base\ abstrata\ para\ todos\ os\ usu\u00E1rios\ do\ sistema.\r\n\ Define\ os\ atributos\ e\ comportamentos\ comuns.\r\n
+comment1.params=nome
+comment1.target=Usuario(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getId()
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

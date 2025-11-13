@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Livro
+comment1.params=titulo\ autor
+comment1.target=Livro(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ Livro\r\n\ Para\ criar\ um\ novo\ livro\r\n
+comment2.params=
+comment2.target=java.lang.String\ getId()
+comment2.text=\r\n\ M\u00E9todos\ para\ acesso\ aos\ atributos\ privados\r\n
+comment3.params=
+comment3.target=java.lang.String\ getTitulo()
+comment4.params=
+comment4.target=java.lang.String\ getAutor()
+comment5.params=
+comment5.target=boolean\ isDisponivel()
+comment6.params=
+comment6.target=void\ emprestar()
+comment6.text=\ \r\n\ \r\nQuando\ o\ livro\ for\ emprestado,\ deixar\ indispon\u00EDvel\r\n
+comment7.params=
+comment7.target=void\ devolver()
+comment7.text=\r\n\ Marca\ o\ livro\ como\ dispon\u00EDvel\ (devolvido).\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ Retorna\ uma\ representa\u00E7\u00E3o\ em\ texto\ do\ livro\ (para\ testes\ e\ logs).\r\n
+numComments=9

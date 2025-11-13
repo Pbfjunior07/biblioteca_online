@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=LivroIndisponivelException
+comment0.text=\r\n\ Exce\u00E7\u00E3o\ customizada\ (Checked\ Exception)\ para\ quando\ um\ livro\ est\u00E1\ indispon\u00EDvel.\r\n\ Herda\ de\ Exception.\r\n
+comment1.params=mensagem
+comment1.target=LivroIndisponivelException(java.lang.String)
+numComments=2

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Emprestimo
+comment0.text=\r\n\ Representa\ a\ transa\u00E7\u00E3o\ de\ empr\u00E9stimo\ de\ um\ Livro\ para\ um\ Leitor.\r\n
+comment1.params=livro\ leitor
+comment1.target=Emprestimo(Livro,\ Leitor)
+comment2.params=
+comment2.target=Livro\ getLivro()
+comment3.params=
+comment3.target=Leitor\ getLeitor()
+comment4.params=
+comment4.target=java.time.LocalDate\ getDataDevolucaoPrevista()
+comment5.params=
+comment5.target=double\ devolver()
+comment5.text=\r\n\ Registra\ a\ devolu\u00E7\u00E3o\ e\ retorna\ a\ multa\ (se\ houver).\r\n\ @return\ O\ valor\ da\ multa\ por\ atraso.\r\n
+comment6.params=
+comment6.target=double\ calcularMulta()
+comment6.text=\r\n\ Calcula\ a\ multa\ com\ base\ na\ data\ de\ devolu\u00E7\u00E3o\ real.\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
